@@ -1,155 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Mercy Yesudas | Frontend Developer</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercy | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+<body class="dark-mode">
 
-<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">PORT<span>FOLIO</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+    <i class="fas fa-moon"></i>
+</button>
+        </div>
+    </nav>
 
-<nav class="navbar">
+    <header class="hero section">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge">Available for hire</div>
+                <h1>Hello, I'm <span class="gradient-text">Mercy</span></h1>
+                <h2>Full Stack  Developer</h2>
+                <p>BSc Computer Science graduate specializing in crafting <strong>high-performance frontend architectures</strong> and <strong>robust backend systems</strong>. Dedicated to turning complex problems into seamless user experiences.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="resume/Mercy-Yesudas-Resume.pdf" class="btn secondary" download>
+                        <i class="fa-solid fa-download"></i> Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="blob"></div>
+                <img src="images/./WhatsApp Image 2026-03-04 at 6.15.30 PM.jpeg" alt="Mercy Yesudas" class="profile-img">
+            </div>
+        </div>
+    </header>
 
-<div class="logo">Mercy</div>
-
-<ul class="nav-links">
-
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-
-</ul>
-
-<button id="theme-toggle">🌙</button>
-
-</nav>
-
-<section class="hero">
-
-<div class="hero-text">
-
-<h1>Hello, I'm Mercy Yesudas</h1>
-
-<h2>Frontend Developer</h2>
-
-<p>
-BSc Computer Science graduate passionate about building modern,
-responsive web applications using HTML, CSS, JavaScript and React.
-</p>
-
-<a href="#projects" class="btn">View Projects</a>
-
-<a href="resume/Mercy-Yesudas-Resume.pdf" class="btn-outline" download>
-Download Resume
-</a>
-
+    <section id="about" class="section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title"></span>
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+    <p>
+        I am a <strong>Full Stack Developer</strong> and <strong>BSc Computer Science</strong> graduate with a deep interest in how the modern web works—from the pixel-perfect details of a React component to the logic-driven architecture of a Spring Boot API.
+    </p>
+    <br>
+    <p>
+        My approach to development is centered on <strong>scalability and user experience</strong>. I don't just write code; I strive to build digital solutions that are accessible, performant, and maintainable. Based in Chennai, I am constantly exploring new technologies to stay at the forefront of the industry.
+    </p>
 </div>
+        </div>
+    </section>
 
-<div class="hero-image">
+    <section id="skills" class="section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title"></span>
+                <h2>Technical Stack</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                <div class="skill-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                <div class="skill-card"><i class="fab fa-react"></i><span>React</span></div>
+                <div class="skill-card"><i class="fas fa-database"></i><span>SQL</span></div>
+                <div class="skill-card"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                <div class="skill-card"><i class="fab fa-java"></i><span>Java</span></div>
+                <div class="skill-card"><i class="fas fa-leaf"></i><span>Spring Boot</span></div>
+                <div class="skill-card"><i class="fas fa-chart-line"></i><span>Digital Marketing</span></div>
+            </div>
+        </div>
+    </section>
 
-<img src="images/./WhatsApp Image 2026-03-04 at 6.15.30 PM.jpeg" alt="profile">
+  <section id="projects" class="section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title"></span>
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-tags"><span>HTML</span><span>JS</span></div>
+                    <h3>Amazon E-commerce UI</h3>
+                    <p>A pixel-perfect recreation of the Amazon shopping experience with dynamic cart logic.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/mersee-afk/amazon-clone-project"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://singular-froyo-9dbe98.netlify.app"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
 
-</div>
+                <div class="project-card">
+                    <div class="project-tags"><span>React</span><span>AI</span></div>
+                    <h3>AI Shopping Assistant</h3>
+                    <p>Context-aware chat assistant built with React to provide personalized product advice.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/mersee-afk/ai-shopping-assistant"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://tourmaline-babka-ffe11d.netlify.app"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="certifications" class="section reveal">
+    <div class="container">
+        <div class="section-header">
+            <span class="sub-title"></span>
+            <h2>Certifications</h2>
+        </div>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <div class="cert-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="cert-info">
+                    <h3>Full Stack Java Developer</h3>
+                </div>
+            </div>
+
+
+            <div class="cert-card">
+                <div class="cert-icon">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+                <div class="cert-info">
+                    <h3>Digital Marketing </h3>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
+    <section id="contact" class="section reveal">
+        <div class="container">
+            <div class="glass-card">
+                <h2>Let's build something great.</h2>
+                <p>Currently looking for new opportunities in Chennai or Remote.</p>
+                <div class="contact-info">
+                    <a href="mailto:yourmail@gmail.com" class="contact-email">mercyyesu7@gmail.com</a>
+                    <div class="social-icons">
+                        <a href="www.linkedin.com/in/mercy-y-320a2b3b3"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/mersee-afk/"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="about" class="section">
-
-<h2>About Me</h2>
-
-<p>
-I am a frontend developer who enjoys creating clean,
-responsive and user-friendly web applications.
-</p>
-
-</section>
-
-
-<section id="skills" class="section">
-
-<h2>Skills</h2>
-
-<div class="skills-container">
-
-<div class="skill-card">HTML</div>
-<div class="skill-card">CSS</div>
-<div class="skill-card">JavaScript</div>
-<div class="skill-card">React</div>
-<div class="skill-card">SQL</div>
-<div class="skill-card">Git</div>
-<div class="skill-card">Responsive Design</div>
-
+ <footer class="footer">
+    <div class="container footer-content">
+     <div class="footer-brand">
+    <div class="logo">Port<span>folio</span></div>
+    <p class="footer-desc">
+        <strong>Full Stack Engineer</strong> specializing in building end-to-end digital products. 
+        Focused on clean code, scalable architecture, and user-centric design.
+    </p>
+    <div class="footer-location">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Chennai, India </span>
+    </div>
 </div>
+        
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
 
-</section>
-
-
-<section id="projects" class="section">
-
-<h2>Projects</h2>
-
-<div class="projects-container">
-
-<div class="project-card">
-
-<h3>Amazon E-commerce Clone</h3>
-
-<p>
-Amazon inspired e-commerce UI built with HTML CSS and JavaScript.
-</p>
-
-<a href="#">GitHub</a>
-
-</div>
-
-<div class="project-card">
-
-<h3>AI Shopping Assistant</h3>
-
-<p>
-React-based chat assistant that recommends products.
-</p>
-
-<a href="#">GitHub</a>
-
-</div>
-
-</div>
-
-</section>
-
-
-<section id="contact" class="section">
-
-<h2>Contact</h2>
-
-<p>Email: yourmail@gmail.com</p>
-
-<p>Location: Chennai, India</p>
-
-<a href="#">LinkedIn</a>
-<a href="#">GitHub</a>
-
-</section>
-
-
-<footer>
-
-<p>© 2026 Mercy Yesudas</p>
-
+        <div class="footer-socials">
+            <h4>Connect</h4>
+            <div class="social-icons">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <div class="container">
+            <button id="backToTop" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+        </div>
+    </div>
 </footer>
 
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
